@@ -2,4 +2,39 @@ epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 3 -- hid
 epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 2 -- hidden_dim = 32 -- best_loss = 3.668e-03
 epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 1 -- hidden_dim = 32 -- best_loss = 3.897e-03
 epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 3 -- hidden_dim = 64 -- best_loss = 8.111e-03
-epochs = 500 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 3 -- hidden_dim = 32 -- best_loss = 6.383e-01
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 2 -- hidden_dim = 64 -- best_loss = 6.622e-03
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 1 -- hidden_dim = 64 -- best_loss = 7.504e-03
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 3 -- hidden_dim = 16 -- best_loss = 2.775e-03 -- noise = 0.05
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 2 -- hidden_dim = 16 -- best_loss = 2.748e-03 -- noise = 0.05
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 1 -- hidden_dim = 16 -- best_loss = 2.871e-03 -- noise = 0.05
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 16 -- best_loss = 2.878e-03 -- noise = 0.05
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 8 -- best_loss = 2.680e-03 -- noise = 0.05
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 3 -- hidden_dim = 8 -- best_loss = 2.841e-03 -- noise = 0.05
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 2 -- hidden_dim = 8 -- best_loss = 2.805e-03 -- noise = 0.05
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 1 -- hidden_dim = 8 -- best_loss = 5.536e-03 -- noise = 0.05
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 16 -- hidden_dim = 8 -- best_loss = 6.144e-01 -- noise = 0.05
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 8 -- hidden_dim = 8 -- best_loss = 5.295e-03 -- noise = 0.05
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 5 -- hidden_dim = 8 -- best_loss = 2.764e-03 -- noise = 0.05
+function_name = sinusoide -- noise = 0.05 -- epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 8 -- best_loss = 2.680e-03
+function_name = sinusoide -- noise = 0.25 -- epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 8 -- best_loss = 5.188e-02
+function_name = sinusoide -- noise = 0.25 -- epochs = 50000 -- kl_weight = 1.000e-04 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 8 -- best_loss = 6.713e-01
+function_name = sinusoide -- noise = 0.25 -- epochs = 50000 -- kl_weight = 1.000e-05 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 8 -- best_loss = 6.119e-02
+function_name = sinusoide -- noise = 0.5 -- epochs = 50000 -- kl_weight = 1.000e-05 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 8 -- best_loss = 2.147e-01
+function_name = sinusoide -- noise = 0.5 -- epochs = 50000 -- kl_weight = 1.000e-04 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 8 -- best_loss = 8.805e-01
+function_name = sinusoide -- noise = 0.5 -- epochs = 100000 -- kl_weight = 1.000e-04 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 8 -- best_loss = 8.768e-01
+function_name = sinusoide -- noise = 0.25 -- epochs = 50000 -- kl_weight = 1.000e-05 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 8 -- best_loss = 6.119e-02
+
+function_name = exp -- noise = 0.5 -- epochs = 50000 -- kl_weight = 1.000e-05 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 8 -- best_loss = 4.778e+00
+function_name = exp -- noise = 0.5 -- epochs = 50000 -- kl_weight = 1.000e-06 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 8 -- best_loss = 5.588e+00
+function_name = exp -- noise = 0.5 -- epochs = 100000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 8 -- best_loss = 4.804e+00
+function_name = exp -- noise = 0.5 -- epochs = 100000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 16 -- best_loss = 2.185e-01
+function_name = exp -- noise = 0.5 -- epochs = 100000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 32 -- best_loss = 2.376e-01
+function_name = exp -- noise = 0.5 -- epochs = 100000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 64 -- best_loss = 9.639e-01
+function_name = exp -- noise = 0.75 -- epochs = 100000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 32 -- best_loss = 4.509e-01
+function_name = exp -- noise = 0.75 -- epochs = 100000 -- kl_weight = 1.000e-06 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 32 -- best_loss = 6.898e-01
+function_name = exp -- noise = 0.75 -- epochs = 50000 -- kl_weight = 1.000e+00 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 32 -- best_loss = 4.937e+01
+function_name = exp -- noise = 0.5 -- epochs = 50000 -- kl_weight = 1.000e+00 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 16 -- best_loss = 3.086e+01
+function_name = exp -- noise = 0.5 -- epochs = 50000 -- kl_weight = 1.000e-01 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 16 -- best_loss = 2.453e+01
+function_name = exp -- noise = 0.5 -- epochs = 50000 -- kl_weight = 1.000e-02 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 16 -- best_loss = 1.021e+01
+function_name = exp -- noise = 0.5 -- epochs = 50000 -- kl_weight = 1.000e-03 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 16 -- best_loss = 1.671e+00
+function_name = exp -- noise = 0.5 -- epochs = 50000 -- kl_weight = 1.000e-04 -- K = 3 -- num_hidden_layers = 4 -- hidden_dim = 16 -- best_loss = 6.779e-01
