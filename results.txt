@@ -1,0 +1,5 @@
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 3 -- hidden_dim = 32 -- best_loss = 4.470e-03
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 2 -- hidden_dim = 32 -- best_loss = 3.668e-03
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 1 -- hidden_dim = 32 -- best_loss = 3.897e-03
+epochs = 50000 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 3 -- hidden_dim = 64 -- best_loss = 8.111e-03
+epochs = 500 -- kl_weight = 1.000e-07 -- K = 3 -- num_hidden_layers = 3 -- hidden_dim = 32 -- best_loss = 6.383e-01
